@@ -9,9 +9,6 @@ public class MyController {
 	@GetMapping(path = "/welcome")
 	public String welcome() {
 		return "Welcome to Global Logic";
-	@GetMapping(path = "/welcome")
-	public String welcome() {
-		return "Welcome to DevOPs";
 	}
 
 }
